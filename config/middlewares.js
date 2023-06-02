@@ -8,7 +8,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['https://mern-ecommerce-clothing.vercel.app']
+      origin: ['https://mern-ecommerce-clothing.vercel.app/']
     }
   },
   'strapi::logger',
