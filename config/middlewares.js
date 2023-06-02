@@ -6,10 +6,10 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
-      headers: '*',
-      origin: ['https://mern-ecommerce-clothing.vercel.app/']
-    }
+      origin: ['https://mern-ecommerce-clothing.vercel.app'],
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+    },
   },
   'strapi::logger',
   'strapi::query',
