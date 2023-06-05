@@ -15,6 +15,7 @@
     "@strapi/strapi": "4.9.0",
     "better-sqlite3": "8.0.1",
     "cors": "^2.8.5",
+    "pg": "^8.11.0",
     "stripe": "^12.1.1"
   },
   "author": {
